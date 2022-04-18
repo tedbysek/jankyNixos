@@ -56,7 +56,6 @@
     nano
     gnumake
     cmake
-    automake
     pkg-config
     ncurses
     spotify
@@ -81,12 +80,6 @@
     chromium
     libreoffice
     libsForQt5.ark
-    yad
-    python38
-    python38Packages.pyusb
-    python38Packages.cryptography
-    python38Packages.pycrypto
-    python38Packages.zstandard
   ];
 
   nixpkgs.config.allowUnfree = true;
